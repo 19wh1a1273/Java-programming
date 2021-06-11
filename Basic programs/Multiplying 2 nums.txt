@@ -1,0 +1,34 @@
+Program 4: Multiplying numbers
+
+import java.util.Scanner;
+
+public class Main{
+
+    public static void main(String[] args){
+
+        int num1,num2,mul;
+
+        Scanner sc = new Scanner(System.in);
+
+        
+        System.out.println("Enter first number: ");
+
+        num1 = sc.nextInt();
+
+        System.out.println("Enter Second number: ");
+
+        num2 = sc.nextInt();
+
+        sc.close();
+
+        
+        mul = num1*num2;
+
+        System.out.println("The product of these two numbers is: "+mul);
+
+    }
+
+}
+
+
+
