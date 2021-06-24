@@ -1,0 +1,31 @@
+/* Compound interest*/
+
+import java.util.Scanner;
+
+public class Main{
+
+    public static void main(String[] args){
+
+        float principle,rate,time;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter principle: ");
+
+        principle = sc.nextFloat();
+
+        System.out.println("Enter Rate: ");
+
+        rate = sc.nextFloat();
+
+        System.out.println("Enter Time:");
+
+        time = sc.nextFloat();
+
+        double CI = principle*(Math.pow((1 + rate / 100), time));
+
+        System.out.println("The result is: "+CI);
+
+    }
+
+}
