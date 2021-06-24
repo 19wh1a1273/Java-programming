@@ -1,0 +1,31 @@
+/* Simple Interest*/
+
+import java.util.Scanner;
+
+public class Main{
+
+    public static void  main(String[] args){
+
+        float principal,rate,time,SI;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter Principal: ");
+
+        principal = sc.nextFloat();
+
+        System.out.println("Enter Rate: ");
+
+        rate = sc.nextFloat();
+
+        System.out.println("Enter Time: ");
+
+        time = sc.nextFloat();
+
+        SI = (principal*rate*time)/100;
+
+        System.out.println("The result is: "+SI);
+
+    }
+
+}
