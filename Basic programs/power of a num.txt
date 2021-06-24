@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main{
+
+    public static void main(String[] args){
+
+        int num,p;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter Number: ");
+
+        num = sc.nextInt();
+
+        
+        System.out.println("Enter Power: ");
+
+        p = sc.nextInt();
+
+        double result = Math.pow(num,p);
+
+        
+        System.out.println(num+"^"+p+"="+result);
+
+    }
+
+}
